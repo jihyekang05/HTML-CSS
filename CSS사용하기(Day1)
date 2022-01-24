@@ -6,3 +6,4 @@ CSS파일을 만들어서 html파일에 <link href="CSS파일경로" rel="styles
 우선순위: style"">>>#id>>.class>p
 <div>,<p>,<h>는 display:block 특성(가로행을 전부 차지하고 있음)을 기본으로 가지고 있다.
 일부 스타일은 클래스 속성 inherit 된다.
+float 사용 후에 clear해줘야 한다. 
