@@ -1,0 +1,6 @@
+CSS파일을 만들어서 html파일을 간소화할 수 있다
+CSS파일을 만들어서 html파일에 <link href="CSS파일경로" rel="stylesheet"> 기입하기
+클래스 Selector는 .클래스명{}으로 적고 html파일에 class="클래스명"으로 적용가능
+아이디 Selector는 #아이디명{}으로 적고 id="아이디명"으로 적용가능
+태그  Selector는p{}로 적고 <p>태그에 스타일 적용가능(<li>같은 것도 가능)
+우선순위: style"">>>#id>>.class>p
