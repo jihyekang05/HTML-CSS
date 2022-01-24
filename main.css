@@ -15,17 +15,22 @@ margin-right: auto;
 }
 
 .content{
-    color: red;
-}
-
-p{
-    color: green; 
-}
-
-#special { 
-    
     text-align: center;
-    color: blue;
+}
+
+.box{
     
+    width: 100px;
+    background: cadetblue;
+    margin: 30px;
+    padding: 40px;
+    border: 5px solid black;
+    border-radius: 50px;
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    box-shadow: 10px 10px 20px 10px black;
 }
 
