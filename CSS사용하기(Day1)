@@ -4,3 +4,5 @@ CSS파일을 만들어서 html파일에 <link href="CSS파일경로" rel="styles
 아이디 Selector는 #아이디명{}으로 적고 id="아이디명"으로 적용가능
 태그  Selector는p{}로 적고 <p>태그에 스타일 적용가능(<li>같은 것도 가능)
 우선순위: style"">>>#id>>.class>p
+<div>,<p>,<h>는 display:block 특성(가로행을 전부 차지하고 있음)을 기본으로 가지고 있다.
+일부 스타일은 클래스 속성 inherit 된다.
