@@ -1,0 +1,11 @@
+.navbar li{
+    
+    display: inline-block;
+    
+} //리스트 내에 모든 자식에 해당된다.
+
+.navbar>li{
+    
+    display: inline-block;
+    
+} //리스트 내에 직계자식에만 해당된다.
