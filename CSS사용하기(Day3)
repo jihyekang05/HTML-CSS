@@ -1,0 +1,9 @@
+##표만들기
+<tr></tr>=행
+<td></td>=열
+행 먼저 만들고 그 안에 열 만든다.
+<th>=제목용 세로열 만들 때 사용
+<thead>=table의 head를 나타낼 때 사용, 기능은 없지만 알아보기 쉽게 하기 위해서 사용<tbody>도 위와 같은 기능..
+table {
+    border-collapse: collapse; //table에 있는 기본 틈을 없앨 때 사용한다.
+}
