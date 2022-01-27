@@ -15,3 +15,4 @@ position부여-> 좌표이동 가능, 글자에 겹칠 수 있음
 relative-내 원래 위치가 기준
 absolute- relative가진 부모태그가 기준
 fixed-현재 화면이 기준
+z-index 클수록 앞에온다.
