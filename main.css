@@ -1,12 +1,15 @@
 div,input,textarea {
     box-sizing: border-box;
 }
-
+@font-face{
+    font-family : '이쁜폰트';
+    src : url(../font/NanumSquareR.woff);
+}
 body {
     margin: 0px;
+    font-family: '이쁜폰트';
+/*용량 적은 폰트 원하면 google-font사용하기*/
 }
-
-
 
 
 
@@ -466,4 +469,59 @@ table {
 }
 .custom-link:visited{
     color:black;
+}
+
+.f-small {
+    font-size:12px;
+}
+.f-mid {
+    font-size:16px;
+}
+.f-lg {
+    font-size: 20px;
+}
+
+
+.main-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.bg-red {
+    background:red;
+}
+
+.bg-blue {
+    background:blue;
+}
+
+.flex-item {
+    width:100px;
+    height:100px;
+    background-color: grey;
+    margin:5px;
+}
+
+.flex-container {
+   display: flex;
+   height: 50px;
+/*    배치 방식 선정하기 위해 사용  */
+/*   flex-direction: row ;*/
+/*    width크면 밑으로 보내고 싶을 때 사용*/
+/*   flex-wrap: wrap;*/
+/*    align-items:center;*/
+    padding:5px;
+/*    justify-content: center;*/
+}
+
+.flex-item2 {
+    width:100px;
+    height:100px;
+    background-color:lightcoral;
+    color:white;
+    margin-right:1
+    
+    
 }
