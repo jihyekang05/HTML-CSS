@@ -1,10 +1,14 @@
-div {
+div,input,textarea {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
 }
+
+
+
+
 
 .profile {
 width: 200px; 
@@ -255,6 +259,7 @@ first-form {
     position:relative;
     top:-10px;
     right:-20px;
+    margin-top:15px;
     
    
 }
@@ -287,9 +292,9 @@ width:180px;
 }
 
 .check-box {
-    position:relative;
-    bottom:385px;
-    left:35px;
+   position:relative;
+    bottom:330px;
+    left:40px;
 }
 
 .subscribe {
@@ -309,7 +314,156 @@ width:180px;
     border:none;
     position:relative;
     left:330px;
-    bottom:430px
+    bottom:350px;
     
     
+}
+
+.form-background {
+    background-color:black;
+    padding: 30px;
+}
+
+.form-white {
+    background-color:white;
+    padding: 30px;
+    width:80%;
+    max-width:600px;
+/*    박스 가운데 정렬*/
+    margin:auto;
+}
+
+.form-input {
+    width:100%;
+    padding:10px;
+    font-size: 20px;
+    border: 1px soild black;
+    border-radius: 5px;
+    
+}
+
+tr,td {
+    border: 1px solid black;
+    border-color:red;
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    
+   background-color:white;
+    width:80%;
+    text-align:center;
+    position:relative;
+    bottom:350px;
+    left:150px;
+    border-radius:10px;
+    
+        
+}
+
+.background-table {
+    background-color:skyblue;
+    padding:1px;
+    width:100%;
+    height:500px;
+    background-size: cover;
+    
+    
+    
+}
+
+.table-head {
+    padding:5px;
+    font-size:20px;
+}
+
+
+
+.lens {
+    width:200px;
+    height:100px;
+    display:block;
+    
+}
+
+
+
+
+.sony {
+    margin-top:-60px;
+    font-size:20px;
+    margin-left:20px;
+}
+
+.info {
+    margin-left:70px;
+    margin-top:-20px;
+    color:grey;
+}
+
+.edit-cart {
+    position:relative;
+    bottom:340px;
+    font-size:20px;
+    margin-left:150px;
+    
+}
+
+.choose-button {
+    width:300px;
+    height:50px;
+    text-align:center;
+    color:white;
+    background-color:cadetblue;
+    font-size:20px;
+    border-radius:10px;
+    border:none;
+    position:relative;
+    left:600px;
+    bottom:400px;
+}
+
+.btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color:white;
+    cursor: pointer;
+}
+/*마우스 올렸을 때 스타일:hover 순서 중요*/
+.btn:hover{
+    background-color: chocolate;
+}
+/*커서 찍혀있을 때:foucs*/
+.btn:focus{
+   background-color: grey; 
+}
+/*클릭 중 스타일:active*/
+.btn:active{
+    background-color:brown;
+    border: 2px solid black;
+}
+
+
+.input-test {
+    font-size: 20px;
+}
+.input-test:focus{
+    border: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+    
+}
+/*방문전 링크 스타일:link*/
+.custom-link:link{
+    color:aqua;
+}
+.custom-link:visited{
+    color:black;
 }
