@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form</h1>
+    <p>
+        action: 서버에서 이 값을 받아 처리할 문서 정보<br>
+        method: 서버로 정보를 보내는 방식 지정<br>
+            get,post방식중에 선택 가능<br>
+            get: 방식은 짧고 보안을 요하지 않는 정보를 보내는 방식<br>
+            정보가 브라우저 url에 모두 나타남<br>
+                  예)http://127.0.0.1.test.html?userid=test&passwd=1234 <br>
+            post : 보안을 요하는 복잡한 정보를 보내는 방식<br>
+                   파일을 보내거나 긴 문장을 보낼때고 유용<br>
+                   회원가입, 게시물쓰기, 파일전송 등에 사용<br>
+    </p>
+    <form action:"">
+        userid : <input type="text" name="userid" id=""><br>
+        password: <input type="password" name="passwd" id=""><br>
+        <input type="submit" value="보내기">
+    </form>
+    <input type="text" name="test">
+</body>
+</html>
