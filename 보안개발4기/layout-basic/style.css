@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    background: red;
+
+}
+
+
+
+span{
+    background-color: black;
+    
+}
+
+#container{
+    background: yellow;
+}
+
+.special{
+    background: black;
+    left: 0px;
+    top: 0px;
+/* static이 default값이다. */
+    position: sticky;
+   
+}
