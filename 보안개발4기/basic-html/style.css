@@ -1,0 +1,31 @@
+*{
+    /* universal */
+    background-color: aquamarine;
+}
+
+button{
+    background-color:yellow;
+}
+
+#special{
+    /* id로 접근 */
+    color:red;
+}
+
+.red{
+    /* class로 접근 */
+    background-color: red;
+}
+
+.black{
+    background-color: black;
+}
+
+button:hover{
+    background-color: yellowgreen;
+}
+
+a[href$=".com"]{
+    /* .com을 가지고 있는 요소에 적용 */
+    color:rgb(125, 8, 241);
+}
